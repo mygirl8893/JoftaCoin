@@ -1,6 +1,6 @@
+This is experimental cryptocurrency JoftaCoin (JFT). https://jofta.com
 
-
-## Building CryptoNote 
+## Building JoftaCoin 
 
 ### On *nix
 
