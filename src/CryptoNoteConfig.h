@@ -33,7 +33,7 @@ const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 10000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 //TODO Define number of digits
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
+const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 9;
 //TODO Define minimum fee for transactions
 const uint64_t MINIMUM_FEE                                   = 0.005;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
@@ -63,13 +63,13 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.dat";
-const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.dat";
-const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "blockscache.dat";
-const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
-const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
-const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindices.dat";
-const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
+const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "jft_blocks.dat";
+const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "jft_blockindexes.dat";
+const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "jft_blockscache.dat";
+const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "jft_poolstate.bin";
+const char     P2P_NET_DATA_FILENAME[]                       = "jft_p2pstate.bin";
+const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "jft_blockchainindices.dat";
+const char     MINER_CONFIG_FILE_NAME[]                      = "jft_miner_conf.json";
 } // parameters
 
 //TODO Put here the name of your currency
