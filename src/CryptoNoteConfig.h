@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "jft_miner_conf.j
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "JoftaCoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001a58d1d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b2242f3826142d376fa2db84607343f90f36520b8e1e7f904201277701fc1667";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
