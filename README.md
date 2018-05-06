@@ -23,18 +23,11 @@ To build, change to a directory where this file is located, and run `make`. The 
 * Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
 
 ### On Windows
-Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may download them from:
+Dependencies:
+* Microsoft Visual Studio Community 2017
+* cmake-3.11.1
+* boost 1.67.0
 
-* http://www.microsoft.com/
-* http://www.cmake.org/
-* http://www.boost.org/
+How to build you can find here: https://www.jofta.com/index.php/2018/05/06/windows-10-clis-for-joftacoin/
 
-To build, change to a directory where this file is located, and run theas commands: 
-```
-mkdir build
-cd build
-cmake -G "Visual Studio 12 Win64" ..
-```
-
-And then do Build.
 Good luck!
