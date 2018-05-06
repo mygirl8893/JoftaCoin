@@ -59,7 +59,8 @@ add_executable(Miner ${Miner})
 
 if (MSVC)
   target_link_libraries(System ws2_32)
-  target_link_libraries(Daemon PaymentGateService bcrypt)
+  target_link_libraries(Daemon bcrypt)
+  target_link_libraries(PaymentGateService bcrypt)
 endif ()
 
 target_link_libraries(ConnectivityTool CryptoNoteCore Logging Crypto P2P Rpc Http Serialization Common System ${Boost_LIBRARIES})
