@@ -45,6 +45,8 @@ if (MSVC)
   target_link_libraries(SystemTests ws2_32)
   target_link_libraries(NodeRpcProxyTests ws2_32)
   target_link_libraries(CoreTests ws2_32)
+  target_link_libraries(IntegrationTests bcrypt)
+  target_link_libraries(TransfersTests bcrypt)
 endif ()
 
 target_link_libraries(TransfersTests IntegrationTestLibrary Wallet gtest_main InProcessNode NodeRpcProxy P2P Rpc Http BlockchainExplorer CryptoNoteCore Serialization System Logging Transfers Common Crypto upnpc-static ${Boost_LIBRARIES})
