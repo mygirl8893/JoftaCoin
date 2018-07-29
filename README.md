@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/mygirl8893/JoftaCoin.svg?branch=master)](https://travis-ci.org/mygirl8893/JoftaCoin)
+
+
 This is experimental cryptocurrency JoftaCoin (JFT). https://jofta.com
 
 ## Building JoftaCoin 
